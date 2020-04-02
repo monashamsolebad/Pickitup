@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HomeTableViewCell : UICollectionViewCell {
+class HomeCollectionViewCell : UICollectionViewCell {
     
     static var identifier: String = "restaurantCell"
     let mainStackView = UIStackView()
