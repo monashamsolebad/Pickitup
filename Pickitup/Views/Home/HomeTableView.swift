@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HomeCollectionView : UICollectionView {
+class HomeTableView : UITableView {
     
     let fadeView:UIView = UIView()
     let indicatorView = UIActivityIndicatorView()
