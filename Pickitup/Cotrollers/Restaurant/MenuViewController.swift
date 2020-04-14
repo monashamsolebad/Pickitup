@@ -45,7 +45,8 @@ extension MenuViewController : UICollectionViewDelegate , UICollectionViewDataSo
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
            let foodVC = FoodViewController()
-           self.navigationController?.pushViewController(foodVC, animated: true)
+           //self.navigationController?.pushViewController(foodVC, animated: true)
+           present(foodVC,animated: true)
        }
     
 }
